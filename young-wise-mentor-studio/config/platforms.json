@@ -1,0 +1,11 @@
+{
+  "_note": "Aspect/resolution presets only. Platform duration limits and specs change often and are deliberately NOT hard-coded; pass --max-seconds if you need a length gate and check the platform's current rules.",
+  "presets": {
+    "youtube": {"aspect": "16:9", "width": 1920, "height": 1080, "fps": 30},
+    "youtube-shorts": {"aspect": "9:16", "width": 1080, "height": 1920, "fps": 30, "caption_bottom_margin_pct": 22},
+    "instagram-reels": {"aspect": "9:16", "width": 1080, "height": 1920, "fps": 30, "caption_bottom_margin_pct": 22},
+    "tiktok": {"aspect": "9:16", "width": 1080, "height": 1920, "fps": 30, "caption_bottom_margin_pct": 25},
+    "vertical": {"aspect": "9:16", "width": 1080, "height": 1920, "fps": 30, "caption_bottom_margin_pct": 22},
+    "landscape": {"aspect": "16:9", "width": 1920, "height": 1080, "fps": 30, "caption_bottom_margin_pct": 8}
+  }
+}

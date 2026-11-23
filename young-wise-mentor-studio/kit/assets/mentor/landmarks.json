@@ -1,0 +1,30 @@
+{
+ "image": "mentor.jpg",
+ "size": [
+  1438,
+  2576
+ ],
+ "face": [
+  735,
+  960
+ ],
+ "eyeL": [
+  626,
+  860,
+  46,
+  17
+ ],
+ "eyeR": [
+  825,
+  859,
+  47,
+  17
+ ],
+ "mouth": [
+  735,
+  1093,
+  90
+ ],
+ "chin": 1232,
+ "note": "Pixel coordinates in mentor.jpg: eye [cx,cy,halfW,halfH], mouth [centreX, lipLineY, halfWidth] (lipLineY = where the closed lips meet). Re-measure with tools/photo_grid.py when you swap the photo."
+}

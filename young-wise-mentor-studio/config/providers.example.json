@@ -1,0 +1,28 @@
+{
+  "_note": "Copy to config/providers.json and fill in from the vendor's own API docs. Nothing here is a verified vendor schema; it only shows the shape GenericHTTP expects. Keys are read from environment variables, never stored in this file.",
+  "providers": [
+    {
+      "name": "example-image-to-video",
+      "lipsync": false,
+      "image_to_video": true,
+      "verified_live": false,
+      "submit": {
+        "method": "POST",
+        "url": "https://api.example.com/v1/image-to-video",
+        "headers": {"Authorization": "Bearer ${ENV:EXAMPLE_API_KEY}"},
+        "json": {"image": "${IMAGE_DATA_URI}", "prompt": "${PROMPT}", "duration": "${DURATION}", "aspect_ratio": "${ASPECT}"}
+      },
+      "job_id_path": "id",
+      "poll": {
+        "method": "GET",
+        "url": "https://api.example.com/v1/jobs/${JOB_ID}",
+        "headers": {"Authorization": "Bearer ${ENV:EXAMPLE_API_KEY}"},
+        "status_path": "status",
+        "done_values": ["succeeded"],
+        "failed_values": ["failed"],
+        "error_path": "error"
+      },
+      "result": {"video_url_path": "output.0.url"}
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "The Young Wise Mentor",
+  "reference_image": "assets/mentor-reference.jpg",
+  "authority": "The reference photograph is authoritative. If this file and the photograph ever disagree, the photograph wins.",
+  "descriptive_anchors": {
+    "note": "Neutral visual anchors written from the supplied photograph, used only to remind text-prompted models and human reviewers what to preserve. They are not a substitute for passing the image itself.",
+    "hair": "short, jet-black, side-swept and slightly textured on top, tapered sides",
+    "face": "adult man, oval face, defined cheekbones, straight dark eyebrows, dark brown eyes, calm direct gaze, closed-mouth near-smile at rest",
+    "skin": "warm light-to-medium tone, natural texture, a few small marks on the cheek and jawline, light stubble",
+    "wardrobe": "plain black pullover hoodie, hood down, no logos",
+    "reference_setting": "dim interior, warm textured wall on the left, dark bookshelf and a leafy plant behind him, soft warm key light from the side"
+  },
+  "identity_lock_lines": [
+    "The man in the supplied reference photograph, exactly as he appears: same face, same short black side-swept hairstyle, same skin tone, same build.",
+    "He wears the same plain black pullover hoodie.",
+    "Do not change his identity, age, facial structure, hairstyle, skin tone or clothing."
+  ],
+  "style": {
+    "look": "cinematic realism, shallow depth of field, soft warm practical lighting, natural skin texture, 35mm film-like colour, no stylisation"
+  },
+  "negative_prompt_terms": [
+    "cartoon",
+    "anime",
+    "illustration",
+    "3D render",
+    "CGI look",
+    "painting",
+    "beauty filter",
+    "plastic skin",
+    "different person",
+    "changed hairstyle",
+    "changed clothing",
+    "extra fingers",
+    "distorted hands",
+    "warped face"
+  ],
+  "forbidden_transformations": [
+    "cartoon",
+    "2D illustration",
+    "3D animated character",
+    "different face",
+    "different hairstyle",
+    "different skin tone",
+    "different clothing",
+    "artistic filter that alters appearance",
+    "face swap onto another person"
+  ],
+  "wardrobe_lock": true,
+  "qc_reference_note": "Face-similarity QC compares sampled output frames against assets/mentor-reference.jpg.",
+  "landscape_reference": {
+    "policy": "Original photo is never altered. For 16:9 the pipeline uses a pure, unedited crop (no generative fill) centred on the face. This is tight framing. For a wider composition, make an identity-preserving wide reference with an image-edit tool, have a human approve it, and save it as assets/derived/mentor-reference-16x9.jpg; the pipeline prefers that file when present.",
+    "crop_y_center_frac": 0.33,
+    "derived_override_path": "assets/derived/mentor-reference-16x9.jpg"
+  }
+}

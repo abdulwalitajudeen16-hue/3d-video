@@ -1,0 +1,18 @@
+{
+  "name": "young-wise-mentor-studio",
+  "version": "0.1.0",
+  "description": "Character-led video production system: turns scripts and voiceovers into photorealistic presenter and storytelling videos using a permanent reference photo of the Young Wise Mentor. Includes script analysis, scene planning, gesture planning, a provider-agnostic lip-sync/video generation interface, ffmpeg assembly, subtitles and an honest quality-control gate.",
+  "author": {
+    "name": "Young Wise Mentor"
+  },
+  "keywords": [
+    "video",
+    "lip-sync",
+    "talking-head",
+    "character-consistency",
+    "shorts",
+    "reels",
+    "tiktok",
+    "self-improvement"
+  ]
+}

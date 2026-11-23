@@ -1,0 +1,161 @@
+{
+ "title": "Your Phone Is Stealing Your Future (demo)",
+ "duration": 23.31,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 7.0,
+   "line": "Your phone is stealing more than your time. It's stealing the future you're working towards.",
+   "scene": "PRESENTER: medium shot, direct to camera, serious, open hands then point at viewer, lean in",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.35
+   },
+   "sfx": [],
+   "notes": "",
+   "mode": "presenter",
+   "emotion": "warning, serious",
+   "action": "",
+   "expression": "serious \u2192 warning",
+   "gesture": "openHands \u2192 openOne \u2192 pointAtViewer \u2192 palmsUp",
+   "camera": "medium waist-up, slow push-in"
+  },
+  {
+   "id": "s002",
+   "start": 7.0,
+   "end": 9.2,
+   "line": "You wake up in the morning.",
+   "scene": "STORY: Mentor wakes in bed, sits up",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "sfx": [],
+   "notes": "",
+   "mode": "story",
+   "emotion": "tired, groggy",
+   "action": "wakes in bed and sits up",
+   "expression": "tired",
+   "gesture": "rest",
+   "camera": "wide, slight push"
+  },
+  {
+   "id": "s003",
+   "start": 9.2,
+   "end": 11.3,
+   "line": "You reach for your phone.",
+   "scene": "STORY: sits on bed edge, picks up phone",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.35
+   },
+   "sfx": [],
+   "notes": "",
+   "mode": "story",
+   "emotion": "habit, automatic",
+   "action": "sits on bed edge and picks up his phone",
+   "expression": "calm",
+   "gesture": "phoneHold",
+   "camera": "medium, static"
+  },
+  {
+   "id": "s004",
+   "start": 11.3,
+   "end": 13.7,
+   "line": "You tell yourself five minutes.",
+   "scene": "STORY: scrolling, screen glow on face",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.35
+   },
+   "sfx": [],
+   "notes": "",
+   "mode": "story",
+   "emotion": "drifting, absorbed",
+   "action": "scrolls with screen glow on his face",
+   "expression": "calm, eyes down",
+   "gesture": "phoneHold",
+   "camera": "medium close, push-in"
+  },
+  {
+   "id": "s005",
+   "start": 13.7,
+   "end": 15.7,
+   "line": "One hour disappears.",
+   "scene": "STORY: wall clock spins, Mentor looks up surprised",
+   "set": "desk room",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "sfx": [],
+   "notes": "",
+   "mode": "story",
+   "emotion": "shock",
+   "action": "looks up at the wall clock, hands to head",
+   "expression": "surprised",
+   "gesture": "handsOnHead",
+   "camera": "medium, slow push"
+  },
+  {
+   "id": "s006",
+   "start": 15.7,
+   "end": 18.1,
+   "line": "Your work remains unfinished.",
+   "scene": "STORY: at desk, frustrated, rubs temples",
+   "set": "desk room",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.35
+   },
+   "sfx": [],
+   "notes": "",
+   "mode": "story",
+   "emotion": "regret, frustration",
+   "action": "sits at his desk rubbing his temples",
+   "expression": "frustrated",
+   "gesture": "rubTemples",
+   "camera": "medium close, push-in"
+  },
+  {
+   "id": "s007",
+   "start": 18.1,
+   "end": 23.31,
+   "line": "So today, put it down. Start small. Start now.",
+   "scene": "PRESENTER: close-up bust, direct to camera, reassuring",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "sfx": [],
+   "notes": "",
+   "mode": "presenter",
+   "emotion": "reassuring, hopeful",
+   "action": "",
+   "expression": "reassuring \u2192 encouraging",
+   "gesture": "rest",
+   "camera": "tight bust close-up, slow push"
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 23.31,
+   "mood": "calm",
+   "intensity": 0.3
+  }
+ ]
+}
